@@ -80,3 +80,21 @@ input[type="range"]::-ms-track {
 .img-thumbnail{ border-radius: 50%; }
 #dvInf h1{color: #072a4c;}
 .blockquote p{color:#6c757d;}
+
+
+@media (min-width: 1024px){
+  #dvConocimiento { margin:0 auto; width: 200px;}
+}
+@media (min-width: 450px) and (max-width: 1024px)  {
+  .lead{ font-size: 1.1rem; }
+  h6 {font-size: 0.8rem;}
+  #dvConocimiento input[type="range"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  #dvConocimiento {
+    text-align: center;
+  }
+}
